@@ -1,1 +1,320 @@
-h1  Hello World
+.scrollup
+    i.ion-ios-arrow-up
+.web-in
+    // Search Modal
+    #search-modal
+        img.exit(src='img/exit.svg', alt='')
+        form.search-form(action='post')
+            label What are you looking for?
+            input(type='text', placeholder='Your search term here...')
+            span
+                | Press
+                b.primary enter
+                |  to confirm search term
+    // Start Project Modal
+    #modal-bg
+        img.exit(src='img/exit.svg', alt='')
+        .holder
+            .placer
+                #modal.center
+                    .title
+                        h5 Start a Project
+                        span.promo-heading Let's discuss your next project.
+                        hr
+                    .row
+                        .col-sm-6.w-section.mh
+                            i.ion-ios-star-outline
+                            h3 Our Service
+                            p
+                                | Lorem ipsum dolor amet consectetuer adipis.
+                        .col-sm-6.w-section.mh
+                            i.ion-ios-glasses-outline
+                            h3 Our Promise
+                            p
+                                | Lorem ipsum dolor amet consectetuer adipis.
+                        .col-sm-6.w-section.mh
+                            i.ion-ios-filing-outline
+                            h3 Your Project
+                            p
+                                | Lorem ipsum dolor amet consectetuer adipis.
+                        .col-sm-6.w-section.mh
+                            i.ion-ios-person-outline
+                            h3 Focus on You
+                            p
+                                | Lorem ipsum dolor amet consectetuer adipis.
+                    hr
+                    a.btn(href='#')
+                        span Give us a call
+                    a.btn(href='#')
+                        span Contact Page
+    // Navigation
+    nav#light.transparent.start-light.regular
+        .container-fluid
+            .row
+                .col-md-12
+                    .nav-ui.n_
+                        div
+                            a.btn.hidden-xs.start-project(href='#')
+                                span Start Project
+                            a.search(href='#')
+                                img.white-icon(src='img/search.svg', alt='')
+                                img.dark-icon(src='img/search-dark.svg', alt='')
+                            #menu-icon
+                                span
+                    .logo-holder.n_
+                        div
+                            a(href='index.html')
+                                img.logo(src='img/logo-light.svg', alt='')
+                                img.logo.alt(src='img/logo-dark.svg', alt='')
+                    .nav-content.n_
+                        ul.light-dropdown
+                            li
+                                a(href='#') Home
+                                ul.dropdown.two-col.mob-show-1
+                                    li.nav-col
+                                        ul(data-mh='home')
+                                            li.sub-nav-header
+                                                ul
+                                                    li
+                                                        a(href='hp-app.html') App
+                                                    li
+                                                        a(href='hp-app2.html') App 2
+                                                    li
+                                                        a(href='hp-agency.html') Agency
+                                                    li
+                                                        a(href='hp-agency2.html') Agency 2
+                                    li.nav-col
+                                        ul(data-mh='home')
+                                            li.sub-nav-header
+                                                ul
+                                                    li
+                                                        a(href='hp-business.html') Business
+                                                    li
+                                                        a(href='hp-personal.html') Personal
+                                                    li
+                                                        a(href='hp-software.html') Software
+                                                    li
+                                                        a(href='hp-onepage.html') One Page
+                            li
+                                a(href='#') Pages
+                                ul.mega.dropdown.four-col.mob-show-1
+                                    li.nav-col
+                                        ul(data-mh='pages')
+                                            li.sub-nav-header
+                                                a(href='#') About
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='p-about-me.html') About me
+                                                    li
+                                                        a(href='p-about-us.html') About us
+                                                    li
+                                                        a(href='p-about-company.html') About company
+                                                    li
+                                                        a(href='p-our-team.html') Our team
+                                    li.nav-col
+                                        ul(data-mh='pages')
+                                            li.sub-nav-header
+                                                a(href='#') Services
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='p-services1.html') Our Services 1
+                                                    li
+                                                        a(href='p-services2.html') Our Services 2
+                                                    li
+                                                        a(href='p-pricing.html') Packages
+                                                    li
+                                                        a(href='p-careers.html') Careers
+                                                    li
+                                                        a(href='p-faq1.html') FAQ 1
+                                                    li
+                                                        a(href='p-faq2.html') FAQ 2
+                                    li.nav-col
+                                        ul(data-mh='pages')
+                                            li.sub-nav-header
+                                                a(href='#') Utility
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='p-comingsoon.html') Coming Soon
+                                                    li
+                                                        a(href='p-404.html') 404 Not Found
+                                                    li
+                                                        a(href='p-500.html') 500 Internal Error
+                                                    li
+                                                        a(href='p-maintenance.html') Maintenance
+                                                    li
+                                                        a(href='p-gridsystem.html') Grid System
+                                    li.nav-col
+                                        ul(data-mh='pages')
+                                            li.sub-nav-header
+                                                a(href='#') Account
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='p-login.html') Log In
+                                                    li
+                                                        a(href='p-register.html') Create account
+                            li
+                                a(href='#') Elements
+                                ul.mega.dropdown.four-col.mob-show-1
+                                    li.nav-col
+                                        ul(data-mh='elements')
+                                            li.sub-nav-header
+                                                ul
+                                                    li
+                                                        a(href='e-about.html') About
+                                                    li
+                                                        a(href='e-services.html') Services
+                                                    li
+                                                        a(href='e-newsletter.html') Newsletters
+                                                    li
+                                                        a(href='e-news.html') News
+                                                    li
+                                                        a(href='e-testimonials.html') Testimonials
+                                    li.nav-col
+                                        ul(data-mh='elements')
+                                            li.sub-nav-header
+                                                ul
+                                                    li
+                                                        a(href='e-pricing-tables.html') Pricing Tables
+                                                    li
+                                                        a(href='e-contact.html') Contact Blocks
+                                                    li
+                                                        a(href='e-counters.html') Counters
+                                                    li
+                                                        a(href='e-promo.html') Promo Blocks
+                                                    li
+                                                        a(href='e-typography.html') Typography
+                                    li.nav-col
+                                        ul(data-mh='elements')
+                                            li.sub-nav-header
+                                                ul
+                                                    li
+                                                        a(href='e-lightbox.html') Lightbox
+                                                    li
+                                                        a(href='e-social.html') Social
+                                                    li
+                                                        a(href='e-logo-strip.html') Logo Strip
+                                                    li
+                                                        a(href='e-tabs.html') Tabs
+                                                    li
+                                                        a(href='e-accordion.html') Accordion
+                                    li.nav-col
+                                        ul(data-mh='elements')
+                                            li.sub-nav-header
+                                                ul
+                                                    li
+                                                        a(href='e-half.html') Half Elements
+                                                    li
+                                                        a(href='e-phones.html') Phone Blocks
+                                                    li
+                                                        a(href='e-icontext.html') Icon & Text
+                                                    li
+                                                        a(href='e-gallery.html') Galleries
+                                                    li
+                                                        a(href='e-footers.html') Footers
+                            li
+                                a(href='#') Portfolio
+                                ul.mega.dropdown.four-col.mob-show-1
+                                    li.nav-col
+                                        ul(data-mh='portfolio')
+                                            li.sub-nav-header
+                                                a(href='#') Listing
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='f-col-4.html') 4 Column
+                                                    li
+                                                        a(href='f-col-3.html') 3 Column
+                                                    li
+                                                        a(href='f-col-2.html') 2 Column
+                                                    li
+                                                        a(href='f-parallax.html') Parallax
+                                    li.nav-col
+                                        ul(data-mh='portfolio')
+                                            li.sub-nav-header
+                                                a(href='#') Masonry
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='f-masonry-3.html') 3 Column
+                                                    li
+                                                        a(href='f-masonry-3-fw.html') 3 Column Full Width
+                                                    li
+                                                        a(href='f-masonry-4.html') 4 Column
+                                                    li
+                                                        a(href='f-masonry-4-fw.html') 4 Column Full Width
+                                    li.nav-col
+                                        ul(data-mh='portfolio')
+                                            li.sub-nav-header
+                                                a(href='#') Full Width
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='f-col-4-fw.html') 4 Column
+                                                    li
+                                                        a(href='f-col-3-fw.html') 3 Column
+                                                    li
+                                                        a(href='f-col-2-fw.html') 2 Column
+                                    li.nav-col
+                                        ul(data-mh='portfolio')
+                                            li.sub-nav-header
+                                                a(href='#') Project
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='f-project-1.html') Project 1
+                                                    li
+                                                        a(href='f-project-2.html') Project 2
+                                                    li
+                                                        a(href='f-project-3.html') Project 3
+                                                    li
+                                                        a(href='f-project-4.html') Project 4
+                                                    li
+                                                        a(href='f-project-5.html') Project 5
+                            li
+                                a(href='#') Blog
+                                ul.mega.dropdown.three-col.mob-show-1
+                                    li.nav-col
+                                        ul(data-mh='blog')
+                                            li.sub-nav-header
+                                                a(href='#') Contained
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='blog-list-1.html') 1 Column
+                                                    li
+                                                        a(href='blog-list-2.html') 2 Column
+                                                    li
+                                                        a(href='blog-list-3.html') 3 Column
+                                                    li
+                                                        a(href='blog-list-4.html') 4 Column
+                                                    li
+                                                        a(href='blog-list-sb.html') With Sidebar
+                                    li.nav-col
+                                        ul(data-mh='blog')
+                                            li.sub-nav-header
+                                                a(href='#') Full Width
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='blog-list-3-fw.html') 3 Column Full Width
+                                                    li
+                                                        a(href='blog-list-4-fw.html') 4 Column Full Width
+                                                    li
+                                                        a(href='blog-list-fw-sb.html') With Sidebar
+                                    li.nav-col
+                                        ul(data-mh='blog')
+                                            li.sub-nav-header
+                                                a(href='#') Posts
+                                                ul.mob-show-2
+                                                    li
+                                                        a(href='blog-post.html') Post Full Width
+                                                    li
+                                                        a(href='blog-post-sidebar.html') Post with Sidebar
+                            li
+                                a(href='#') Contact
+                                ul.dropdown.mob-show-1
+                                    li.nav-col
+                                        ul
+                                            li.sub-nav-header
+                                                ul
+                                                    li
+                                                        a(href='contact-locations.html') Contact Maps
+                                                    li
+                                                        a(href='contact-minimal.html') Contact Minimal
+                                                    li
+                                                        a(href='contact-simple.html') Contact Simple
+                    .clearfix

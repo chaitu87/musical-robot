@@ -1,4 +1,88 @@
 extends layout
 
 block content
-    h1= title
+    // Header
+    header#agency2.dark1(data-overlay='8')
+        video#bgvid(autoplay='', muted='', loop='', poster='video/videobg.jpg')
+            source(src='video/banner1.mp4', type='video/mp4')
+        .header-in
+            .caption.center
+                img(src='img/logo-banner.svg', alt='')
+                h1 Passionate about Digital
+                h6 We work on projects with valuable customers to create the greatest
+            img.arrow(src='img/arrow.svg', alt='')
+    section.iconblock.grey
+        .container
+            .row
+                .col.col-md-8
+                    h4 Welcome to Arisn
+                    h2
+                        | We as an agency stride to give our customers the best service that they could ever wish for
+            .row.m-space
+                .col-sm-6.col-md-3
+                    i.ion-android-laptop
+                    h3 Front End Dev
+                    p
+                        | Lorem ipsum dolor amet consectetuer adipiscing dolut nonummy
+                        | adpiscing
+                .col-sm-6.col-md-3
+                    i.ion-android-bulb
+                    h3 User Experience
+                    p
+                        | Lorem ipsum dolor amet consectetuer adipiscing dolut nonummy
+                        | adpiscing
+                .col-sm-6.col-md-3
+                    i.ion-android-globe
+                    h3 Search Marketing
+                    p
+                        | Lorem ipsum dolor amet consectetuer adipiscing dolut nonummy
+                        | adpiscing
+                .col-sm-6.col-md-3
+                    i.ion-android-contacts
+                    h3 Style Assistants
+                    p
+                        | Lorem ipsum dolor amet consectetuer adipiscing dolut nonummy
+                        | adpiscing
+    section
+        .container.border
+            .row
+                .col-md-8
+                    h4 Some of our works
+                    h2 All the work that we create is a 100% made with love and care of the web
+            .row.m-space.portfolio.list
+                .col-md-4.col-xs-6.mh
+                    a(href='img/projects/600x500-1.jpg', data-lity='')
+                        .project-image
+                            img(src='img/projects/300x200-1.jpg', alt='')
+                        .project-info
+                            h5 Lightbox
+                            h2 Horelax
+                            p Interior Designers Unite
+                            ul.tags
+                                li Web Design
+                                li SEO
+                                li CMS
+                // end of item
+                .col-md-4.col-xs-6.mh
+                    a(href='#')
+                        .project-image
+                            img(src='img/projects/300x200-2.jpg', alt='')
+                        .project-info
+                            h5 Link
+                            h2 Second Ocean
+                            p Sea Company on Tour
+                            ul.tags
+                                li Expedition
+                // end of item
+                .col-md-4.col-xs-6.mh
+                    a(href='#')
+                        .project-image
+                            img(src='img/projects/300x200-3.jpg', alt='')
+                        .project-info
+                            h5 Link
+                            h2 The Watchers
+                            p Interior Designers Unite
+                            ul.tags
+                                li Filmography
+                                li CMS
+                // end of item
